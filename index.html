@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            overflow: none;
+        }
+
+       .container{
+            width: 100vw;
+            height: 100vh;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,110,120,0.9810049019607843) 55%, rgba(0,212,255,1) 77%);
+            display: flex;
+            justify-content: center;    
+            align-items: center;
+
+       }
+       .card{
+                background-color: white;
+                height: 600px;
+                width: 400px;
+                border-radius: 40px;  
+               
+            } 
+            .card img{
+                width: 100%;
+                border-top-right-radius: 40px;
+                border-top-left-radius: 40px;
+                height: 175px;
+                
+            }
+            .img{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+            .img p{
+                margin: 2px;
+                padding: 4px;
+                word-wrap:;
+            }
+
+            .textbox{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                width: 70%;
+                text-align: center;
+
+
+            }
+            .amountbox{
+                width: 80%;
+                height:10%;
+                background-color: rgba(115, 78, 228, 0.226);
+                margin-left: 35px;
+                margin-top: 40px;
+                border-radius: 10px;
+               
+            }
+            #payement{
+                width: 80%;
+                height:10%;
+                background-color: rgba(10, 2, 20, 0.884);
+                margin-left: 35px;
+                margin-top: 20px;
+                border-radius: 10px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+            }
+            #payement p{
+                color: azure;
+                font-size: 1rem;
+               
+            }
+            .Cancelbox{
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+
+            }
+           .leftbox{
+            width: 50%;
+            padding-left: 20px; 
+           }
+
+           .rightbox{ 
+            padding-right: 20px;
+           }
+
+           .amountbox{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           }   
+    </style>
+</head>Proceed to payement
+<body>
+    <div class="container">
+        <div class="card">
+            <div class ="img">
+                <img src="icon.jpg" alt="">
+                <div class="textbox">  
+                <h2>Order Summary</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente commodi quia eveniet iste accusantium eligendi nisi fugit modi nesciunt itaque.</p>
+                </div>
+        </div>
+
+        <div class="amountbox">
+            <div class="leftbox">    
+                <div class="textamount">
+                    <p>Amount</p>
+                    <p>$9.9/year</p>
+                </div>
+            </div>
+
+            <div class="rightbox">
+               <a href="#">Change</a>
+            </div>
+        </div>
+        
+        <button id="payement">
+            <p>Proceed to payement</p>
+        </button>
+        <div class="Cancelbox">
+        <a href="">Cancel Order</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
