@@ -1,1 +1,1 @@
-link: https://harshh0710.github.io/cards-project/
+This project showcases a set of customizable card components built using HTML and CSS. These cards can be used for displaying content in a visually appealing way on web pages. They are designed to be responsive and easily integrated into various web projects.
